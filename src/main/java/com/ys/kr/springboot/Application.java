@@ -7,7 +7,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 /**
  *  항상 프로젝트의 최상단에 위치해야만 하는 클래스
  */
-@EnableJpaAuditing // JPA auditing 활성화
 @SpringBootApplication
 public class Application {
     public static void main(String[] args) {
