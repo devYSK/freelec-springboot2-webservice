@@ -39,7 +39,7 @@ dependencies { // 개발에 필요한 의존성들을 선언하는곳
 
     // mysql
     compile('org.springframework.session:spring-session-jdbc')
-
+    compile('org.mariadb.jdbc:mariadb-java-client')
 
 
     // 자동빌드용 의존성
