@@ -18,6 +18,7 @@ script: "./gradlew clean build"
 # https://vesselsdiary.tistory.com/154
 before_install:
   - chmod +x gradlew
+  - sudo apt install ruby
 
 
 before_deploy:
